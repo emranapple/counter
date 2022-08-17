@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.counter-wrapper {
+    background-image: url("countertwo.jpg");
+    background-size: cover;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.counter-overlay {
+    background: rgba(0,0,0,0.7);
+}
+
+.counter-content {
+    padding-top: 50px;
+    padding-bottom: 200px;    
+}
+
+h1, h2, h4 {
+    color: whitesmoke;
+}
+
+h1, h4 {
+    text-shadow: 5px 5px 5px black;
+}
+
+button {
+    padding: 6px 18px;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+#increase-btn {
+    background: #bededd;
+}
+
+#save-btn {
+    background: #f5fafb;
+}
